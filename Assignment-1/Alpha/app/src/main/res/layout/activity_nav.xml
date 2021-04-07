@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="72dp">
+
+        <TableRow android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_4"
+                app:srcCompat="@drawable/img4"
+                tools:ignore="ContentDescription,OnClick" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_3"
+                app:srcCompat="@drawable/img3"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_2"
+                app:srcCompat="@drawable/img2"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_1"
+                app:srcCompat="@drawable/img1"
+                tools:ignore="ContentDescription"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_8"
+                app:srcCompat="@drawable/img8"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_7"
+                app:srcCompat="@drawable/img7"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_6"
+                app:srcCompat="@drawable/img6"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_5"
+                app:srcCompat="@drawable/img5"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_12"
+                app:srcCompat="@drawable/img12"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_11"
+                app:srcCompat="@drawable/img11"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_10"
+                app:srcCompat="@drawable/img10"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_9"
+                app:srcCompat="@drawable/img9"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/img16"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_16"
+                app:srcCompat="@drawable/img16"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img15"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_15"
+                app:srcCompat="@drawable/img15"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_14"
+                app:srcCompat="@drawable/img14"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/img13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/todo"
+                android:onClick="sound_13"
+                app:srcCompat="@drawable/img13"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="close"
+        android:text="@string/close"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
